@@ -1,5 +1,97 @@
 # Java-Project-2
 This is my java project repo, In this repo i add minor and major project using Java.
+
+# Notepad Application
+
+This repository contains a Java implementation of a Notepad application. The application allows users to create, open, edit, save, and print text documents. It also includes various text editing functionalities such as copy, paste, cut, find, replace, and select all.
+
+## Technologies and Tools Used
+
+- **Java**: The programming language used to implement the Notepad application.
+- **Swing**: For building the graphical user interface (GUI).
+- **Java Development Kit (JDK)**: To compile and run Java programs.
+- **Integrated Development Environment (IDE)**: Such as IntelliJ IDEA, Eclipse, or NetBeans for writing and debugging code.
+
+## Code Structure
+
+- **Notepad.java**: Contains the main logic for the Notepad application, including the GUI components and their functionalities.
+
+## Features
+
+### File Operations
+- **New**: Create a new document.
+- **Open**: Open an existing text file (.txt).
+- **Save**: Save the current document.
+- **Save As**: Save the current document with a new name.
+- **Print**: Print the current document.
+- **Close Tab**: Close the current tab.
+- **Exit**: Exit the application.
+
+### Edit Operations
+- **Undo**: Undo the last action.
+- **Cut**: Cut the selected text.
+- **Copy**: Copy the selected text.
+- **Paste**: Paste the copied text.
+- **Delete**: Delete the selected text.
+- **Select All**: Select all text in the document.
+- **Find**: Find a specific word or phrase in the document.
+- **Replace**: Replace a specific word or phrase in the document.
+
+### View Operations
+- **Zoom**: Zoom in or out of the document.
+- **Status Bar**: Show or hide the status bar.
+- **Word Wrap**: Enable or disable word wrap.
+
+### Help
+- **About**: Display information about the Notepad application.
+
+## Running the Application
+
+To compile and run the application, follow these steps:
+
+1. **Compile the Java files**:
+    ```sh
+    javac -d bin src/notepad/*.java
+    ```
+
+2. **Run the application**:
+    ```sh
+    java -cp bin notepad.Notepad
+    ```
+
+## Example Usage
+
+1. **Creating a New Document**:
+    - Click on "File" -> "New" to create a new document.
+
+2. **Opening an Existing Document**:
+    - Click on "File" -> "Open" and select a `.txt` file to open.
+
+3. **Saving a Document**:
+    - Click on "File" -> "Save" or "Save As" to save the current document.
+
+4. **Printing a Document**:
+    - Click on "File" -> "Print" to print the current document.
+
+5. **Editing Text**:
+    - Use the edit menu to cut, copy, paste, delete, find, replace, and select all text.
+
+## Additional Notes
+
+- Ensure that the `Swing` package is imported in your code.
+- The application provides various keyboard shortcuts for quick access to functionalities.
+
+---
+
+**Author:** Ravishankar Kumar  
+**Email:** [ravishankarmahto887752@gmail.com](mailto:ravishankarmahto887752@gmail.com)  
+**Stream:** Software Developer
+
+Feel free to explore and modify the code to enhance the Notepad application's features!
+
+Enjoy using Notepad!
+
+
 ## Demo
 
 ![{786A3FDE-59FA-4FB8-A649-1D4F6A34A6C4}](https://github.com/user-attachments/assets/c5336db3-20a7-40c4-b9ab-d6b3ef93d2dc)
